@@ -1,0 +1,247 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #b3b3b3;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Jura';
+   }
+   html, body {
+    overflow-x: hidden;
+}
+   b{
+    font-size: 130%;
+   }
+   a{
+       font-family: 'Jura';
+   }
+   
+   a:link {
+       color: #000000;
+   }
+   
+   a:active {
+       color: #00a2ff;
+   }
+   
+   a:hover{
+       color: #00a2ff; 
+   }
+   
+   h1 
+   {
+       text-align: center;
+       color: #000000;
+       font-family: 'Jura';
+   }
+   
+   h2 
+   {
+       padding: 15px;
+       text-align: left;
+       color: #000000;
+       font-family: 'Jura';
+       text-align: center;
+       font-size: 36px;
+   }
+   
+   p {
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+    color: #000000;
+    text-indent: 1.5em;
+    text-align: justify;
+    margin-bottom: -120px;
+    font-family: 'Jura';
+    align-items: flex-end;
+    font-size: 20px;
+}
+   
+   ul {
+    font-size: 20px;
+    padding: 20px;
+    list-style-type: none;
+    color: #000000;
+    font-family: 'Jura';
+}
+   
+   li
+   {
+    padding-top: 10px;
+       padding-left: 15px;
+       color: #000000;
+       font-family: 'Jura';
+   }
+   
+   q
+   {
+       padding-left: 15px;
+       color: #000000;
+       font-family: 'Jura';
+   }
+   
+   button
+   {
+       font-family: 'Jura';
+   }
+   .text-box {
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    max-height: 400px;
+}
+.text-box h1 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+   
+       .image{
+        position: absolute;
+       text-align: center;
+       width: 100;
+       height: 100;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       
+       }
+   
+       .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 20px;
+        background: #ffffff;
+        color: #000000;
+        left: 0%;
+      }
+      .container {
+        flex: 1;
+        padding: 2rem;
+      }
+      .home-icon {
+        height: 54px;
+        object-fit: contain;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 20px;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: -18px;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar a {
+        padding: 10px 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+   .navbar a:hover 
+   {
+       background: #00a2ff; 
+       color: rgb(255, 255, 255); 
+   }
+   
+   .subnav 
+   {
+       float: left; 
+   }
+   .subnav:hover .subnav-content 
+   {
+       display: block; 
+   }
+   .subnavbtn 
+   {
+       font-size: 18px; 
+       border: none; 
+       padding: 18px; 
+       background: #696969; 
+       color: #000000;}
+   .subnavbtn:hover 
+   {
+       background-color: #00a2ff; 
+       color: black; 
+   }
+   .subnav-content 
+   { 
+   
+       display: none; 
+       position: absolute; 
+   }
+   .subnav-content a:hover 
+   {
+       background-color: #00a2ff; 
+       color: black; 
+   }
+   
+   .container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 164px auto;
+    background-color: white;
+    width: 95%;
+    max-width: 800px;
+    padding: 2rem;
+    text-align: left;
+}
+   .knopka {
+    margin-top: 5%;
+   }
+
+   .buttons {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: static;
+    top: -20px;
+    left: 10px;
+    z-index: 10;
+    text-align: left;
+}
+
+.buttons .button {
+    padding: 16px 16px;
+    background-color: #08a4ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 22px;
+    font-family: 'Jura';
+    font-size: 20px;
+    width: 111px;
+}
+.buttons .button:hover {
+    background-color: #006bb3;
+}
+   @media screen and (max-width: 500px) 
+      {.navbar a {float: none; display: block; }
+      .subnav {float: none; display: block;}
+      .subnav-content {display:block; float: none;}
+      p {min-width: 100%; }}
+   
+   
+      
+   @font-face 
+   {
+   font-family: 'Jura'; 
+   src: local('Jura'),
+       url(Jura-Regular.ttf); 
+   }

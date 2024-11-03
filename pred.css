@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura';
+}
+.subject {
+  font-size: 22px;
+  padding: 10px 15px;
+}
+ul li {
+    padding: 2px 15px;
+}
+html {
+    font-size: 16px;
+}
+
+body, a, button, ul, li, q {
+    user-select: none;
+    font-size: 16px;
+    font-family: 'Jura';
+    color: #000000;
+}
+.background-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 20px;
+}
+.review-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+h1 {
+    padding-bottom: 20px;
+    color: #000000;
+    font-family: 'Jura';
+}
+h2 {
+    color: #000000;
+    font-family: 'Jura';
+}
+
+.review-box {
+    margin-bottom: 2rem;
+}
+
+.box {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.box img {
+    border-radius: 10px;
+
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-family: 'Jura';
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+    .container {
+        width: 70%;
+        max-width: 500px;
+        margin: 50px auto;
+        padding-bottom: 50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+    .navbar {
+        overflow-x: scroll;
+    }
+}

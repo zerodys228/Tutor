@@ -1,0 +1,496 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #b6b6b6;
+    font-family: 'Jura';
+    margin: 0;
+}
+html, body {
+    overflow-x: hidden;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+   b{
+    font-size: 130%;
+   }
+   a{
+    text-decoration: none;
+       font-family: 'Jura';
+   }
+
+   a:active {
+       color: #00a2ff;
+   }
+   
+   a:hover{
+    border-radius: 20px;
+       color: #00a2ff; 
+   }
+   
+   h1 
+   {
+       text-align: center;
+       color: #000000;
+       font-family: 'Jura';
+   }
+   
+   h2 
+   {
+       padding: 15px;
+       text-align: left;
+       color: #000000;
+       font-family: 'Jura';
+       text-align: center;
+       font-size: 36px;
+   }
+   
+   p {
+    margin-top: 10px;
+    display: flex;
+    color: #000000;
+    text-indent: 0.5em;
+    text-align: justify;
+    margin-bottom: 1%;
+    font-family: 'Jura';
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+}
+   
+ul {
+    margin-top: 200px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    font-size: 19px;
+    padding: 20px;
+    list-style-type: none;
+    color: #000000;
+    font-family: 'Jura';
+    text-align: justify;
+}
+footer {
+    user-select: none;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Jura';
+    color: #000000;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+footer a:hover {
+    color: #00a2ff;
+}
+
+footer .footer-text {
+    margin-top: 5px;
+}
+   li
+   {
+    user-select: none;
+    padding-top: 5px;
+       color: #000000;
+       font-family: 'Jura';
+   }
+   
+   q
+   {
+       padding-left: 15px;
+       color: #000000;
+       font-family: 'Jura';
+   }
+   .text-block {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-family: 'Jura';
+    font-size: 16px;
+}
+
+.text-block h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.text-block p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+   .text-box {
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    max-height: 400px;
+}
+.text-box h1 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+   
+       .image{
+        position: absolute;
+       text-align: center;
+       width: 100;
+       height: 100;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       
+       }
+   
+
+      .home-icon {
+        height: 54px;
+        object-fit: contain;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 20px;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar a {
+        padding: 10px 16px;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+    }
+   .navbar a:hover 
+   {
+       background: #00a2ff; 
+       color: rgb(255, 255, 255); 
+   }
+   
+   .subnav 
+   {
+       float: left; 
+   }
+   .subnav:hover .subnav-content 
+   {
+       display: block; 
+   }
+   .subnavbtn 
+   {
+       font-size: 18px; 
+       border: none; 
+       padding: 18px; 
+       background: #696969; 
+       color: #000000;}
+   .subnavbtn:hover 
+   {
+       background-color: #00a2ff; 
+       color: black; 
+   }
+   .subnav-content 
+   { 
+   
+       display: none; 
+       position: absolute; 
+   }
+   .subnav-content a:hover 
+   {
+       background-color: #00a2ff; 
+       color: black; 
+   }
+   
+   .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 95%;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.text-left {
+    margin-top: 195px;
+    width: 48%;
+}
+
+.text-right {
+    margin-top: -137px;
+    width: 45%;
+}
+.buttons .button:hover {
+    background-color: #006bb3;
+}
+@media (max-width: 1000px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 100vh;
+        margin: 0;
+    }
+    .container {
+        width: 70%;
+        max-width: 500px;
+        margin: 50px auto;
+        padding-bottom: 50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .text-left {
+        margin-top: 88px;
+        width: 55%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    
+    .text-right {
+        margin-top: -190px;
+        width: 45%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    ul {
+        margin-top: 200px;
+        width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        font-size: 19px;
+        padding: 20px;
+        list-style-type: none;
+        color: #000000;
+        font-family: 'Jura';
+        text-align: justify;
+    }
+    footer {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .navbar {
+        width: 110%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .footer-container {
+        padding: 0 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 100vh;
+        margin: 0;
+    }
+    .container {
+        width: 70%;
+        max-width: 500px;
+        margin: 50px auto;
+        padding-bottom: 50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .text-left {
+        margin-top: -190px;
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .text-right {
+        margin-top: -190px;
+        width: 45%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    ul {
+        margin-top: 200px;
+        width: 300px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        font-size: 19px;
+        padding: 20px;
+        list-style-type: none;
+        color: #000000;
+        font-family: 'Jura';
+        text-align: justify;
+    }
+    footer {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .navbar {
+        width: 110%;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-x: scroll;
+    }
+
+    .footer-container {
+        padding: 0 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 100vh;
+        margin: 0;
+    }
+    .container {
+        width: 75%;
+        max-width: 500px;
+        margin: 50px auto;
+        padding-bottom: 50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    footer {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .text-left {
+        margin-top: -190px;
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul {
+        margin-top: 200px;
+        width: 242px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        font-size: 19px;
+        padding: 20px;
+        list-style-type: none;
+        color: #000000;
+        font-family: 'Jura';
+        text-align: justify;
+    }
+    .navbar {
+        width: 110%;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-x: scroll;
+    }
+
+    .footer-container {
+        padding: 0 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    footer {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .text-left {
+        margin-top: -190px;
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul {
+        margin-top: 200px;
+        width: 201px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        font-size: 19px;
+        padding: 20px;
+        list-style-type: none;
+        color: #000000;
+        font-family: 'Jura';
+        text-align: justify;
+    }
+    .footer-container {
+        max-width: 280px;
+        padding: 0 10px;
+    }
+
+    footer a, .navbar a {
+        font-size: 12px;
+    }
+
+    footer .footer-text {
+        margin-top: 4px;
+    }
+    .navbar{
+        overflow-x: scroll;
+    }
+}
+
+
+
+      
+   @font-face 
+   {
+   font-family: 'Jura'; 
+   src: local('Jura'),
+       url(Jura-Regular.ttf); 
+   }
